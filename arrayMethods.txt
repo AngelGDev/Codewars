@@ -1,0 +1,30 @@
+Couldn't change privacy settings for some reason, so placing array methods definitions here.
+
+ARRAY METHODS
+Angel Morales aka Koffs
+
+map: creates a new array with the results of calling a function onto each element of the source array
+
+reduce: returns an accumulated value from a function called onto each element of the source array. The result of the function on each elements is put into the accumulator.
+
+filter: creates a new array with every element of the source array that passes a function
+ 
+forEach: calls a function once for each array element. Does not modify the source array
+ 
+sort: sorts the elements of the array in an ascending order by default. We can provide a function to define how they will be sorted
+
+slice: returns a new array with a portion of the source array, depending on the start and end paraments we give
+
+pop: removes the last element from the array and returns that element
+
+shift: removes the first element from the array adn returns that element
+
+push: adds one or more elements to the end of the array and returns the new length
+
+unshift:  adds one or more elements to the beginning of the array and returns the new length
+
+includes:  returns true if an array has a certain value among its elements
+
+indexOf: returns the first index where a given element can be found
+
+every: returns true if all the elements inside the array pass the provided function
