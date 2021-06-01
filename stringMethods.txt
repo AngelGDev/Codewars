@@ -1,0 +1,34 @@
+Uploading to github again to have everything in one place
+
+STRING METHODS
+Angel Morales aka Koffs
+
+charAt: takes in a number charAt(X) and returns the character in that position inside the string. Count starts from 0
+
+charCodeAt: takes in a number charAt(X) and returns the character code in that position inside the string. Count starts from 0. Uppercase and lowercase have different character codes
+
+concat: adds the arguments to the calling strings and returns a new string. Arguments can be literal strings or variables.
+
+includes: returns true if the case sensitive string argument exists within the calling string
+
+indexOf: returns the index of the calling string where the string argument first appears. We can specify where the search starts to find other ocurrences.
+
+match: returns an array of the characters inside a string that match a regular expression. Return null if no matches are found.
+
+repeat: returns a new string containing the number of copies passes as an argument.
+
+replace: return a new string after replacing the first argument with the second argument inside the calling string.
+
+search: returns the first match of a regular expression inside the calling string.
+
+slice: returns a new string extracted from a portion of the calling string. We specify where the slice starts, and an optional end.
+
+split: returns an array after separating the string on each occurence of the argument.
+
+substr: returns a piece of a string beginning at the index we choose and optionally we can specify how many characters we extract.
+
+toLowerCase: converts all characters inside the calling string to lowercase.
+
+toUpperCase: converts all characters inside the calling string to uppercase.
+
+trim: removes whitespace from both sides of the string.
