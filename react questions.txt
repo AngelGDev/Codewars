@@ -1,0 +1,32 @@
+1. What is React.js ? 
+Javascript library created by Facebook for building resusable front-end components
+
+2. Why would you use React.js ? 
+To have an easier time coding reusable building blocks that we can plug in into several pages and/or projects
+
+3. What are components ? 
+Resusable and flexible building blocks we can easily use in different pages/projects
+
+4. What is JSX ? What are props ? 
+Syntax  extension for javascript that uses html like code to simply modify the DOM. Gives individual components access to the DOM individually, so they can update separately.
+
+5. What is state ? 
+An instance of a component where we store property values that belong to it, and when the state (the propertios of the component) changes, the component re-renders
+
+6. What are the differences btw/ functional and class based components ? Give an example of a functional and class based component ? 
+  Functional: basic js functions that return jsx, they accept data and display it in some form, no render method used, usually presentational only, accept and use props
+const FunctionalComponent = (props) => {
+ return <h1>Hello, {props.name}</h1>;
+};
+  Class: ES6 class extending the Component class in React, they can implement logic and state, has a render method, you pass props down to class components
+  class ClassComponent extends React.Component {
+  render() {
+    const { name } = this.props;
+    return <h1>Hello, { name }</h1>;
+ }
+}
+
+7. What are React Hooks ? 
+let you use state and other React features without a class
+
+8. How does useState work ? Give an example of useState ?
